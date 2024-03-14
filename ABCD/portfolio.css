@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'SDSamliphopangche_Outline';
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#container {
+    height: auto;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header h1 {
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+#header ul li>a {
+    padding: 10px;
+    border-radius: 6px;
+    align-items: center;
+    font-weight: bold;
+    transition: 0.2s ease all;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#header ul li:hover>a {
+    transition: 0.2s ease all;
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 6px;
+    align-items: center;
+    background-color: rgb(213, 178, 226);
+    font-size: 20px;
+    color: #555759;
+}
+
+#header ul li>a:active {
+    background-color: #c0e5e7;
+    transition: 0.2s ease all;
+}
+
+
+header ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+
+.imgbox {
+    background-color: white;
+    width: 100%;
+    padding: 60px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.imgbox h1 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.imgbox img {
+    width: auto;
+    height: 360px;
+    cursor: pointer;
+    margin: 40px 28px 40px 28px;
+    transition: 0.4s ease all;
+}
+
+/*존재하지 않은 포폴은 use로 사용 */
+.use:hover {
+    box-shadow: 3px 3px 40px rgb(152, 204, 213);
+    width: auto;
+    height: 360px;
+    filter: blur(5px);
+    transition: 0.4s ease all;
+    filter: brightness(110%);
+}
+
+/*존재 하지않은 포폴은 클래스를 none으로 줌*/
+.none:hover {
+    box-shadow: 2px 2px 15px gray;
+    width: auto;
+    height: 360px;
+    filter: blur(5px);
+    transition: 0.4s ease all;
+    filter: brightness(90%);
+    filter: grayscale(100%);
+}
+
+.portfolio hr {
+    width: 1230px;
+    border: 2px solid black;
+    background-color: black;
+}

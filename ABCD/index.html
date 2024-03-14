@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>📚PORTFOLIO</title>
+</head>
+
+<body>
+    <div id="container">
+        <header id="header" oncontextmenu="return false" ondragstart="return faslse" onselectstart="return false">
+            <h1 id="name"><a href="portfolio.html">KKE's PORTFOLIO</a></h1>
+            <ul>
+                <li><a href="#profile">HOME</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#youth">YOUTH</a></li>
+            </ul>
+        </header>
+    </div>
+    <section>
+        <div id="profile" class="profile">
+            <div class="swiper">
+            
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./img/타코코.jpg" width="900px" height="auto"></div>
+                  <div class="swiper-slide"><img src="./img/타코코.jpg" width="900px" height="auto"></div>
+                  <div class="swiper-slide"><img src="./img/타코코.jpg" width="900px" height="600px"></div>
+                  <div class="swiper-slide"><img src="./img/타코코.jpg" width="900px" height="auto"></div>
+                  <div class="swiper-slide"><img src="./img/타코코.jpg" width="900px" height="auto"></div>
+                  <div class="swiper-slide"><img src="./img/타코코.jpg" width="900px" height="auto"></div>
+                  <div class="swiper-slide"><img src="./img/타코코.jpg" width="900px" height="600px"></div>
+                  <div class="swiper-slide"><img src="./img/타코코.jpg" width="900px" height="auto"></div>
+                </div>
+            
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+             
+              </div>
+              <h1>Kim Kyeong Eon</h1>
+                <hr>
+              <h1>타코코 귀여워</h1>
+            </div>
+        <div id="about" class="about">
+            <br><br>
+            <h1>ABOUT ME</h1>
+            <hr>
+            한 1000억정도 있는 돈많은 백수가 꿈이지만 <br>
+            현실에 부딪혀서 일과 학습을 병행하는 학생입니다.<br>
+            근데 어쩌다보니 퍼블리싱을 하게 되었는데<br>
+            공부할겸 포폴 만들 겸 만든 웹페이지 (?)
+        </div>
+        <div id="youth" class="youth">
+            <h1>youth</h1>
+            <hr>
+            <h1>Making A INNOVATION</h1>
+        </div>
+    </section>
+    <footer id="footer1" class="footer1">
+        <h3>Copyrignt@2024 all reserved by 김경언</h3>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+
+    loop: true,
+    pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+    navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+
+</script>
+</body>
+
+</html>
