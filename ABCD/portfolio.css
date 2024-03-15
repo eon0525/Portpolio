@@ -104,7 +104,6 @@ header ul {
     transition: 0.4s ease all;
 }
 
-/*존재하지 않은 포폴은 use로 사용 */
 .use:hover {
     box-shadow: 3px 3px 40px rgb(152, 204, 213);
     width: auto;
@@ -114,7 +113,6 @@ header ul {
     filter: brightness(110%);
 }
 
-/*존재 하지않은 포폴은 클래스를 none으로 줌*/
 .none:hover {
     box-shadow: 2px 2px 15px gray;
     width: auto;
